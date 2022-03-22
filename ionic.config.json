@@ -1,0 +1,7 @@
+{
+  "name": "appointsure-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

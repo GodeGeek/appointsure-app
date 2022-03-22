@@ -1,0 +1,24 @@
+.account-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ion-icon{
+        font-size: 30px;
+        color: #46C7F0;
+        padding-right: 20px;
+    }
+    p{
+        color: #333;
+    }
+}
+
+.account-nav{
+    font-size: 30px;
+    color: #46C7F0;
+}

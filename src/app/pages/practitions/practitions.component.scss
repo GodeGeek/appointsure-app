@@ -1,0 +1,19 @@
+.practition{
+    img{
+        height: 150px;
+        width: 100%;
+    }
+    padding: 0 !important;
+    .header{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        ion-card-title{
+            color: #fff !important;
+        }
+    }
+}
+
+ion-card-content{
+    padding-top: 20px;
+}

@@ -1,0 +1,74 @@
+.health{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.health-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.health-card{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #46C7F0;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    img{
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.vr-divirder{
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    margin-right: 20px;
+}
+
+.visit-item{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    margin: 10px;
+    border-left: 2px solid #46C7F0;
+    display: flex;
+    .date{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        align-items: start;
+        justify-content: center;
+        h4{
+            margin: 0;
+            font-weight: bold;
+        }
+        p{
+            margin: 0;
+        }
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            margin: 0;
+            font-weight: bold;
+        }
+        small{
+            color: #ccc;
+            margin: 0;
+        }
+    }
+}
